@@ -7,6 +7,8 @@
 import Foundation
 
 public final class DateValidator {
+    
+    public init () {}
         
     private struct Constants {
         static let minDate = 1
