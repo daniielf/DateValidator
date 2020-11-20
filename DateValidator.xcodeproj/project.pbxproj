@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECB04C82565F24D008142C2 /* DateValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECB04BE2565F24C008142C2 /* DateValidator.framework */; };
+		3ECB04CD2565F24D008142C2 /* DateValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB04CC2565F24D008142C2 /* DateValidatorTests.swift */; };
+		3ECB04CF2565F24D008142C2 /* DateValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECB04C12565F24C008142C2 /* DateValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ECB04DF2565F337008142C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB04DE2565F337008142C2 /* AppDelegate.swift */; };
+		3ECB04E12565F337008142C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB04E02565F337008142C2 /* SceneDelegate.swift */; };
+		3ECB04E32565F337008142C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB04E22565F337008142C2 /* ViewController.swift */; };
+		3ECB04E62565F337008142C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB04E42565F337008142C2 /* Main.storyboard */; };
+		3ECB04E82565F339008142C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB04E72565F339008142C2 /* Assets.xcassets */; };
+		3ECB04EB2565F339008142C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB04E92565F339008142C2 /* LaunchScreen.storyboard */; };
+		3ECB04F12565F683008142C2 /* DateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB04F02565F683008142C2 /* DateValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ECB04C92565F24D008142C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECB04B52565F24C008142C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECB04BD2565F24C008142C2;
+			remoteInfo = DateValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECB04BE2565F24C008142C2 /* DateValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECB04C12565F24C008142C2 /* DateValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateValidator.h; sourceTree = "<group>"; };
+		3ECB04C22565F24C008142C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECB04C72565F24D008142C2 /* DateValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECB04CC2565F24D008142C2 /* DateValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValidatorTests.swift; sourceTree = "<group>"; };
+		3ECB04CE2565F24D008142C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECB04DC2565F337008142C2 /* DateValidatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateValidatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECB04DE2565F337008142C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ECB04E02565F337008142C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3ECB04E22565F337008142C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ECB04E52565F337008142C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECB04E72565F339008142C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ECB04EA2565F339008142C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ECB04EC2565F339008142C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECB04F02565F683008142C2 /* DateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValidator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECB04BB2565F24C008142C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB04C42565F24D008142C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB04C82565F24D008142C2 /* DateValidator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB04D92565F337008142C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECB04B42565F24C008142C2 = {
+			isa = PBXGroup;
+			children = (
+				3ECB04C02565F24C008142C2 /* DateValidator */,
+				3ECB04CB2565F24D008142C2 /* DateValidatorTests */,
+				3ECB04DD2565F337008142C2 /* DateValidatorExample */,
+				3ECB04BF2565F24C008142C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECB04BF2565F24C008142C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB04BE2565F24C008142C2 /* DateValidator.framework */,
+				3ECB04C72565F24D008142C2 /* DateValidatorTests.xctest */,
+				3ECB04DC2565F337008142C2 /* DateValidatorExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECB04C02565F24C008142C2 /* DateValidator */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB04C12565F24C008142C2 /* DateValidator.h */,
+				3ECB04C22565F24C008142C2 /* Info.plist */,
+				3ECB04F02565F683008142C2 /* DateValidator.swift */,
+			);
+			path = DateValidator;
+			sourceTree = "<group>";
+		};
+		3ECB04CB2565F24D008142C2 /* DateValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB04CC2565F24D008142C2 /* DateValidatorTests.swift */,
+				3ECB04CE2565F24D008142C2 /* Info.plist */,
+			);
+			path = DateValidatorTests;
+			sourceTree = "<group>";
+		};
+		3ECB04DD2565F337008142C2 /* DateValidatorExample */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB04DE2565F337008142C2 /* AppDelegate.swift */,
+				3ECB04E02565F337008142C2 /* SceneDelegate.swift */,
+				3ECB04E22565F337008142C2 /* ViewController.swift */,
+				3ECB04E42565F337008142C2 /* Main.storyboard */,
+				3ECB04E72565F339008142C2 /* Assets.xcassets */,
+				3ECB04E92565F339008142C2 /* LaunchScreen.storyboard */,
+				3ECB04EC2565F339008142C2 /* Info.plist */,
+			);
+			path = DateValidatorExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3ECB04B92565F24C008142C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB04CF2565F24D008142C2 /* DateValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3ECB04BD2565F24C008142C2 /* DateValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECB04D22565F24D008142C2 /* Build configuration list for PBXNativeTarget "DateValidator" */;
+			buildPhases = (
+				3ECB04B92565F24C008142C2 /* Headers */,
+				3ECB04BA2565F24C008142C2 /* Sources */,
+				3ECB04BB2565F24C008142C2 /* Frameworks */,
+				3ECB04BC2565F24C008142C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateValidator;
+			productName = DateValidator;
+			productReference = 3ECB04BE2565F24C008142C2 /* DateValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3ECB04C62565F24D008142C2 /* DateValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECB04D52565F24D008142C2 /* Build configuration list for PBXNativeTarget "DateValidatorTests" */;
+			buildPhases = (
+				3ECB04C32565F24D008142C2 /* Sources */,
+				3ECB04C42565F24D008142C2 /* Frameworks */,
+				3ECB04C52565F24D008142C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECB04CA2565F24D008142C2 /* PBXTargetDependency */,
+			);
+			name = DateValidatorTests;
+			productName = DateValidatorTests;
+			productReference = 3ECB04C72565F24D008142C2 /* DateValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ECB04DB2565F337008142C2 /* DateValidatorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECB04ED2565F339008142C2 /* Build configuration list for PBXNativeTarget "DateValidatorExample" */;
+			buildPhases = (
+				3ECB04D82565F337008142C2 /* Sources */,
+				3ECB04D92565F337008142C2 /* Frameworks */,
+				3ECB04DA2565F337008142C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateValidatorExample;
+			productName = DateValidatorExample;
+			productReference = 3ECB04DC2565F337008142C2 /* DateValidatorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECB04B52565F24C008142C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Daniel Freitas";
+				TargetAttributes = {
+					3ECB04BD2565F24C008142C2 = {
+						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
+					};
+					3ECB04C62565F24D008142C2 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					3ECB04DB2565F337008142C2 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 3ECB04B82565F24C008142C2 /* Build configuration list for PBXProject "DateValidator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECB04B42565F24C008142C2;
+			productRefGroup = 3ECB04BF2565F24C008142C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECB04BD2565F24C008142C2 /* DateValidator */,
+				3ECB04C62565F24D008142C2 /* DateValidatorTests */,
+				3ECB04DB2565F337008142C2 /* DateValidatorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECB04BC2565F24C008142C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB04C52565F24D008142C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB04DA2565F337008142C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB04EB2565F339008142C2 /* LaunchScreen.storyboard in Resources */,
+				3ECB04E82565F339008142C2 /* Assets.xcassets in Resources */,
+				3ECB04E62565F337008142C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECB04BA2565F24C008142C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB04F12565F683008142C2 /* DateValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB04C32565F24D008142C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB04CD2565F24D008142C2 /* DateValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB04D82565F337008142C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB04E32565F337008142C2 /* ViewController.swift in Sources */,
+				3ECB04DF2565F337008142C2 /* AppDelegate.swift in Sources */,
+				3ECB04E12565F337008142C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ECB04CA2565F24D008142C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECB04BD2565F24C008142C2 /* DateValidator */;
+			targetProxy = 3ECB04C92565F24D008142C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ECB04E42565F337008142C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECB04E52565F337008142C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ECB04E92565F339008142C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECB04EA2565F339008142C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECB04D02565F24D008142C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3ECB04D12565F24D008142C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3ECB04D32565F24D008142C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DateValidator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielfg.DateValidator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECB04D42565F24D008142C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DateValidator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielfg.DateValidator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3ECB04D62565F24D008142C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z258S79JG;
+				INFOPLIST_FILE = DateValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielfg.DateValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECB04D72565F24D008142C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z258S79JG;
+				INFOPLIST_FILE = DateValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielfg.DateValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3ECB04EE2565F339008142C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateValidatorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielfg.DateValidatorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECB04EF2565F339008142C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DateValidatorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danielfg.DateValidatorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECB04B82565F24C008142C2 /* Build configuration list for PBXProject "DateValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECB04D02565F24D008142C2 /* Debug */,
+				3ECB04D12565F24D008142C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECB04D22565F24D008142C2 /* Build configuration list for PBXNativeTarget "DateValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECB04D32565F24D008142C2 /* Debug */,
+				3ECB04D42565F24D008142C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECB04D52565F24D008142C2 /* Build configuration list for PBXNativeTarget "DateValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECB04D62565F24D008142C2 /* Debug */,
+				3ECB04D72565F24D008142C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECB04ED2565F339008142C2 /* Build configuration list for PBXNativeTarget "DateValidatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECB04EE2565F339008142C2 /* Debug */,
+				3ECB04EF2565F339008142C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECB04B52565F24C008142C2 /* Project object */;
+}
