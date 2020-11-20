@@ -2,3 +2,7 @@ language: swift
 osx_image: xcode11.6
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project DateValidator.xcodeproj -scheme DateValidator -sdk iphonesimulator13.6 -destination "platform=iOS Simulator,OS=13.6,name=iPhone SE (2nd generation)" ONLY_ACTIVE_ARCH=YES
+
+after_success:
+  - slather
+  - bash <(curl -s https://codecov.io/bash)

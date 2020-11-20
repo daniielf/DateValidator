@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: DateValidator.xcodeproj
+scheme: DateValidator
+output_directory: reports
+ignore:
+  - DateValidatorTests/*
